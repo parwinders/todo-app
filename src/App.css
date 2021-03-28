@@ -1,0 +1,67 @@
+.heading {
+  text-align: center;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid darkblue;
+  text-decoration-color: darkblue;
+}
+
+.ratings {
+  border: 2px solid rgb(21, 88, 24);
+  display: flex;
+  align-items: center;
+}
+
+.ratings > div:hover {
+  border: 2px solid red;
+}
+
+.ratings > div {
+  padding-right: 5px;
+}
+.active {
+  background-color: cyan;
+}
+
+.CR {
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+  align-items: center;
+}
+
+.btn {
+  height: 2rem;
+  width: 10rem;
+  background: cyan;
+}
+
+.res-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+}
+
+.res {
+  border: 2px solid black;
+  width: 3rem;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+body {
+  background-image: ("bg.png");
+}
